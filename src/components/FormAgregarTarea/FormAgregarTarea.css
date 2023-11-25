@@ -1,0 +1,5 @@
+.btn.btn-danger:hover {
+  color: var(--bs-btn-hover-bg);
+  background-color: transparent;
+  border-color: var(--bs-btn-hover-border-color);
+}
