@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import FormAgregarTarea from "../FormAgregarTarea/FormAgregarTarea.js";
 import { TaskDetails } from "../TaskDetails/Taskdetails.js";
 import TaskListSection from "../TaskListSection/TaskListSection.js";
-import TaskToast from "../TaskToast/TaskToast.js";
 import "./Main.css";
 
 export default function Main() {

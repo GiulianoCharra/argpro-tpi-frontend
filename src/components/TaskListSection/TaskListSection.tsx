@@ -30,7 +30,7 @@ function TaskListSection() {
         <Tabs
           id="controlled-tab-example"
           activeKey={key}
-          onSelect={(k) => setKey(k)}
+          onSelect={(k) => setKey(k?.toString() || "todas")}
           className="mb-3"
         >
           <Tab

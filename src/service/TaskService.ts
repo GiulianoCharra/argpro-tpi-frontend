@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Task } from "../models/Task.js";
 
-const BASE_URL = "http://localhost:3000/tasks";
+const BASE_URL = "https://task-list-backend-h9ii.onrender.com/tasks";
 
 export const TaskService = {
   getAll: async (): Promise<Task[]> => {
