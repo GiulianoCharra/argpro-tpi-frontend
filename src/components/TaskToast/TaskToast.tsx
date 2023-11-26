@@ -40,7 +40,7 @@ function TaskToast({ config }: { config: { message: string; type: string } }) {
               className="btn-close btn-outline-light"
               data-bs-dismiss="toast"
               aria-label="Close"
-              onClick={() => setShow(false)}
+              onClick={handleClose}
             ></Button>
           </Toast.Header>
           <Toast.Body>{message}</Toast.Body>
