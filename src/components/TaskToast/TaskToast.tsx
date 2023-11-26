@@ -17,7 +17,7 @@ function TaskToast({ config }: { config: { message: string; type: string } }) {
   return (
     <>
       <ToastContainer
-        className="p-3 text-light position-fixed bottom-0 right-0"
+        className="p-3 text-light position-fixed"
         style={{ zIndex: 1 }}
         position="bottom-end"
       >
