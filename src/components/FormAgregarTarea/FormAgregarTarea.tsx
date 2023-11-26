@@ -135,7 +135,7 @@ function FormAgregarTarea() {
             </Form.Control>
           </Form.Group>
 
-          <div className="d-flex gap-4 mt-5">
+          <div className="d-flex gap-4 mt-5 justify-content-center justify-content-md-start">
             <Button
               variant="outline-primary"
               size="lg"
