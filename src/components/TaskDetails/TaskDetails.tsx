@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "../../contexts/ToastProvider.js";
 import ModalConfirmDeleteTask from "../ModalConfirDeleteTask/ModalConfirmDeleteTask.js";
 
-export function TaskDetails({task, taskremove, tastupdate}) {
+export function TaskDetails() {
   const { selectedTask: task } = useTaskContext();
   const [estado, setEstado] = useState<TaskEstado>(task?.estado || TaskEstado.POR_HACER);
 
