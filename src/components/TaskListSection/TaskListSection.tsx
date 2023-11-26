@@ -46,14 +46,14 @@ function TaskListSection() {
             <TaskList tasks={tasksPorHacer} />
           </Tab>
           <Tab
-            eventKey="enProceso"
-            title="En proceso"
+            eventKey="enProduccion"
+            title="En Produccion"
           >
             <TaskList tasks={tasksEnProduccion} />
           </Tab>
           <Tab
-            eventKey="testing"
-            title="Testing"
+            eventKey="porTestear"
+            title="Por Testear"
           >
             <TaskList tasks={tasksTesting} />
           </Tab>
