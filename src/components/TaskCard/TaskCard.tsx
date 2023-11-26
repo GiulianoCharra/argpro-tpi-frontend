@@ -1,7 +1,7 @@
 import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { useTaskContext } from "../../contexts/TaskProvider.js";
 import { Task } from "../../models/Task.js";
-import { Link } from "react-router-dom";
 import "./TaskCard.css";
 
 function TaskCard({ task }: { task: Task }) {
@@ -22,14 +22,14 @@ function TaskCard({ task }: { task: Task }) {
         <Card.Title>{task.titulo}</Card.Title>
         <Card.Text>Tiempo: {task.tiempo}</Card.Text>
         <Card.Text>Responsable: {task.responsable}</Card.Text>
-        <Button
-          as={Link}
-          to="/task-details"
-          variant="primary"
-          onClick={handleTaskClick}
-        >
-          Ver mas
-        </Button>
+        <Link to="/task-details">
+          <Button
+            variant="primary"
+            onClick={handleTaskClick}
+          >
+            Ver mas
+          </Button>
+        </Link>
       </Card.Body>
     </Card>
   );

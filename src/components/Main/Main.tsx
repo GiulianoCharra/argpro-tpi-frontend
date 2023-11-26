@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import FormAgregarTarea from "../FormAgregarTarea/FormAgregarTarea.js";
-import { TaskDetails } from "../TaskDetails/Taskdetails.js";
+import { TaskDetails } from "../TaskDetails/TaskDetails.js";
 import TaskListSection from "../TaskListSection/TaskListSection.js";
 import "./Main.css";
 
