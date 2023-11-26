@@ -23,7 +23,7 @@ export function TaskDetails() {
     e.preventDefault();
     await TaskService.update(task, { estado });
     setEstado(task?.estado);
-    showToastMessage("La tarea se actualizó correctamente", "success");
+    showToastMessage("La tarea se actualizó correctamente", "info");
     navigate("/");
   };
 
